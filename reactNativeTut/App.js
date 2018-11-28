@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Header />
+        <Header headerText={'Albums!'} />
       </View>
     );
   }
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    height: 100,
+    height: 110,
     paddingTop: 50,
     elevation: 10,
   },
