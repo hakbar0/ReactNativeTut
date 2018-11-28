@@ -3,7 +3,7 @@ import { Text, StyleSheet } from 'react-native';
 
 const Header = () => {
     return (
-    <Text style={styles.font}>Albums!</Text>
+        <Text style={styles.font}>Albums!</Text>
     )
 };
 
